@@ -1,0 +1,22 @@
+TPCTF 2017: Not Lisp
+-------
+
+**Catégorie**: Misc **Points**: 20 **Description**:
+
+> ctong610 is trying to write a program, but he's really bad at programming so his program has both syntax errors and is way too long.
+If he has 10^4 pairs of parentheses, in how many ways can they be organized validly?
+(Note: (()()) is valid, but (()()( is not).
+
+Give your answer as a number mod 10^3.
+
+Note: ^ in this case is exponentiation, not xor.
+
+The flag is just a number.
+
+
+Write up
+-------
+
+It's the number of correct expressions of lenght corresponding to : 2*10^4 (10^4 pairs) we can do with parentheses
+That corresponds to the "Nombre de Catalan". (https://fr.wikipedia.org/wiki/Nombre_de_Catalan)
+The flag is simply 640.
