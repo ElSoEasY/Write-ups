@@ -1,0 +1,16 @@
+TPCTF 2017 : Bad Restaurant
+-------
+**Category** : Crypto   **Points** : 5
+**Description**:
+>"I asked for a salad, but I got this instead: jfsjv{qbb_heqti_buqt_je_hecu}.
+Author: Kevin Higgs"
+
+Write up
+-------
+
+It's just a Cesar code
+we know every flag looks like : tpctf{something_here}
+so we know here that "jfsjv" = "tpctf"
+J = T <=> an offset of 16
+
+So we have tpctf{all_roads_lead_to_rome}
