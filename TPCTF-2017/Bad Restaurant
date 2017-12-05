@@ -1,0 +1,16 @@
+TPCTF 2017 : Bad Restaurant
+-------
+
+**Catégorie**: Crypto **Points**: 5 **Description**:
+> I asked for a salad, but I got this instead: jfsjv{qbb_heqti_buqt_je_hecu}.
+Author: Kevin Higgs
+
+Write up
+-------
+
+It's a simple code of Caesar
+We know that every flag in the TPCTF is formatted like tpctf{something_here}
+So we know that here, "jfsjv" = "tpctf"
+J <=> T so it's a shift of 16 letters.
+so we have the flag (after decoding with an online tool for example)
+```tpctf{all_roads_lead_to_rome}```
